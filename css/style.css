@@ -1,0 +1,40 @@
+/* reset css */
+html{
+    font-size: 80.0%;
+}
+body{
+    font: 1.6rem 'Montserrat' sans-serif; /* serif */
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+/* contexte css de balises html*/
+p, figure, h1, h2, ul, li{
+    margin: O;
+    padding: O;
+}
+figure{
+    text-align: center;
+}
+/* theme */
+:root{
+    --color-default: #000;
+    --color-primary: rgba(68,68,202);
+    --color-warning: rgb(185, 185, 185);
+    --color-success: rgb(17,201,17);
+}
+section li:nth-child(n+1){
+    max-width: 50rem;
+    border: 0.1rem solid rgb(218, 203, 215);
+    padding: 1rem;
+    display: flex;
+    margin: 0 auto 0.3rem;
+    text-align: justify;
+}
+li:nth-child(2n+1){
+    background-color: var(--color-warning);
+}
+h2{
+    max-width: 49rem;
+    display: flex;
+    margin: 0 auto;
+}
